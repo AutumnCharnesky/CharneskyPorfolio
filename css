@@ -26,3 +26,15 @@ img {
 
   border-style: solid;
 }
+
+.button_styled {
+  color: #D2B48C;
+  width: 100px;
+}
+
+#contact-page {
+  border: double;
+  width: 21%;
+  height: 170px;
+  background: rgba(139, 69, 19, 0.5);
+}
