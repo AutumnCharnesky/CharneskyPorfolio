@@ -1,23 +1,28 @@
 
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
 p {
   font-family: inherit;
+
 }
 
 body {
-  background-color: #66cdaa;
-  opacity: 1.4;
-}
+  background-image: url("images/propercup.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1.0;
+
+  }
 
 h1 {
-  color: teal;
+  font-family: 'Anton', sans-serif;
+  color: #D2B48C;
 }
 
 img {
   -moz-box-shadow: 5px 5px 5px 5px #777777;
   -webkit-box-shadow: 5px 5px 5px 5px #777777;
   box-shadow: 5px 5px 5px 5px #777777;
-}
 
-img {
   border-style: solid;
 }
