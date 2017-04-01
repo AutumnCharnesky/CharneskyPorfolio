@@ -10,8 +10,6 @@ body {
   background-image: url("images/propercup.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 1.0;
-
   }
 
 h1 {
@@ -24,7 +22,7 @@ img {
   -webkit-box-shadow: 5px 5px 5px 5px #777777;
   box-shadow: 5px 5px 5px 5px #777777;
 
-  border-style: solid;
+  border-style: double;
 }
 
 .button_styled {
