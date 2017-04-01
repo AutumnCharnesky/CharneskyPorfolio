@@ -1,7 +1,4 @@
-function createButton(context, fun){
-  var button=document.createElement("input");
-  button.type="button";
-  button.value="im a button";
-  button.onclick=func;
-  context.appendChild=(button);
+function alertForm (form) {
+var TestVar = form.firstname.value+ " " +form.lastname.value;
+alert ("Thank you, " + TestVar);
 }

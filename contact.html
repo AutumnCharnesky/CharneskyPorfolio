@@ -1,10 +1,13 @@
 <!DOCKTYPE html>
 <html>
 
+     <script type="text/javascript" src="js"></script>
+
 <div class="topnav" id="myTopnav">
   <a href="Charnesky,Portfolio.html">Home</a>
   <a href="contact.html">Contact</a>
-  <a href="about.html">About</a>
+  <a href="about.html">About</a></br>
+</div>
 
 <link rel="stylesheet" type="text/css" href="css" media="screen" />
 
@@ -18,14 +21,16 @@
       <p>Please <a href="mailto:autumn.breeze.c18@gmail.com">Email Me</a> for more
       information.</p>
 
-        <form>
+        <form id="form-id">
+
   First name:<br>
-  <input type="text" name="firstname"><br>
+  <input type="text" name="firstname" value=""><br>
   Last name:<br>
-  <input type="text" name="lastname">
+  <input type="text" name="lastname" value="">
 </br>
-  <input class="button_styled" type="submit">
+<button id="your-id" onclick="alertForm(this.form)">submit</button>
     </form>
+
   </center>
 </div>
     </body>
